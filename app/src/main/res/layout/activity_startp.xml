@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".StartpActivity">
+
+    <TextView
+        android:id="@+id/tvWel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/welcome_to_list_your_life"
+        android:textAlignment="center"
+        android:textColor="#6da1b4"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:saveEnabled="false"
+        android:showWeekNumber="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:longClickable="false"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/heutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="heutBtn_clicked"
+            android:text="@string/todays_to_do"
+            app:backgroundTint="#6da1b4" />
+
+        <Button
+            android:id="@+id/WoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="WoBtn_clicked"
+            android:text="@string/to_dos_of_the_week"
+            android:textAlignment="center"
+            app:backgroundTint="#6da1b4" />
+
+        <Button
+            android:id="@+id/MoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="MoBtn_clicked"
+            android:text="@string/to_dos_of_the_month"
+            app:backgroundTint="#6da1b4" />
+
+        <Button
+            android:id="@+id/UrgBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="212dp"
+            android:onClick="UrgBtn_clicked"
+            android:text="@string/urgent"
+            app:backgroundTint="#6da1b4" />
+    </LinearLayout>
+
+</LinearLayout>

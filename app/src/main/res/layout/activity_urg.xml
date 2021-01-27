@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".UrgActivity">
+
+    <Button
+        android:id="@+id/backBtnUrg"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:onClick="backBtnUrg_clicked"
+        android:text="@string/urgentSite"
+        android:textSize="26sp"
+        app:backgroundTint="#6da1b4" />
+
+    <TextView
+        android:id="@+id/tvFir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/do_these_things_first"
+        android:textAlignment="center"
+        android:textColor="#3f5e6b"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvETF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eat_the_frog"
+        android:textAlignment="center"
+        android:textColor="#3f5e6b"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveBtnUrg"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:onClick="setSaveBtnUrg_clicked"
+            android:text="@string/save_allUrg"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#6da1b4" />
+
+        <Button
+            android:id="@+id/deleteBtnUrg"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="25dp"
+            android:onClick="deleteBtnUrg_clicked"
+            android:text="@string/delete_all"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#6da1b4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrTD"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/urgent_to_dos"
+            android:textAlignment="textStart"
+            android:textColor="#3f5e6b"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrg1"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Urg1"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrg1"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/first"
+            android:inputType="textPersonName"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CBUrg1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/doneUrg1"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrg2"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Urg2"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrg2"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/second"
+            android:inputType="textPersonName"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CBUrg2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/DoneUrg2"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrg3"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Urg3"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrg3"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/third"
+            android:inputType="textPersonName"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CBUrg3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/doneUrg3"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrg4"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Urg4"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrg4"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/fourth"
+            android:inputType="textPersonName"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CBUrg4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/doneUrg4"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrg5"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Urg5"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrg5"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/fifth"
+            android:inputType="textPersonName"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/CBUrg5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/doneUrg5"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iVlogo2"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:contentDescription="@string/logo2"
+            app:srcCompat="@drawable/gruppe_1" />
+
+        <TextView
+            android:id="@+id/tvYCDI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:text="@string/you_can_do_it"
+            android:textAlignment="textEnd"
+            android:textColor="#3f5e6b"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

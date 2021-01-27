@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">List your Life</string>
+    <string name="list_your_life" translatable="false">LIST YOUR LIFE</string>
+    <string name="start">Start</string>
+    <string name="heutige_to_dos" translatable="false">Heutige To-Dos</string>
+    <string name="to_dos_der_woche" translatable="false">To-Dos der Woche</string>
+    <string name="to_dos_des_monats" translatable="false">To-Dos des Monats</string>
+    <string name="wichtig" translatable="false">!!Wichtig!!</string>
+    <string name="deine_heutigen_to_dos" translatable="false">Deine heutigen To-Dos</string>
+    <string name="back" translatable="false"><![CDATA[<]]></string>
+    <string name="done">Done</string>
+    <string name="welcome_madlen">Welcome Madlen</string>
+    <string name="to_dos_of_the_week">To-Dos of the week</string>
+    <string name="to_dos_of_the_month">To-Dos of the month</string>
+    <string name="urgent">Urgent</string>
+    <string name="todays_to_do">Todays To-Dos</string>
+    <string name="category_b_important">Category B (important)</string>
+    <string name="category_a_very_important">Category A (very important)</string>
+    <string name="AtD1" translatable="false">-</string>
+    <string name="AtD2" translatable="false">-</string>
+    <string name="AtD3" translatable="false">-</string>
+    <string name="AtD4" translatable="false">-</string>
+    <string name="AtD5" translatable="false">-</string>
+    <string name="Ad1">Done</string>
+    <string name="Ad2">Done</string>
+    <string name="Ad3">Done</string>
+    <string name="Ad4">Done</string>
+    <string name="Ad5">Done</string>
+    <string name="BtD1" translatable="false">-</string>
+    <string name="BtD2" translatable="false">-</string>
+    <string name="BtD3" translatable="false">-</string>
+    <string name="BtD4" translatable="false">-</string>
+    <string name="BtD5" translatable="false">-</string>
+    <string name="Bd1">Done</string>
+    <string name="Bd2">Done</string>
+    <string name="Bd3">Done</string>
+    <string name="Bd4">Done</string>
+    <string name="Bd5">Done</string>
+    <string name="category_c_not_important">Category C (not important)</string>
+    <string name="CtD1" translatable="false">-</string>
+    <string name="CtD2" translatable="false">-</string>
+    <string name="CtD3" translatable="false">-</string>
+    <string name="CtD4" translatable="false">-</string>
+    <string name="CtD5" translatable="false">-</string>
+    <string name="Cd1">Done</string>
+    <string name="Cd2">Done</string>
+    <string name="Cd3">Done</string>
+    <string name="Cd4">Done</string>
+    <string name="Cd5">Done</string>
+    <string name="todays_to_do_tab"><![CDATA[Todays To-Do]]></string>
+    <string name="title_activity_wo_activitiy" translatable="false">WoActivitiy</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="tuesday">Tuesday</string>
+    <string name="friday">Friday</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="monday">Monday</string>
+    <string name="TDOW">To-Dos of the Week</string>
+    <string name="welcome_to_list_your_life">Welcome to List Your Life</string>
+    <string name="Mo1" translatable="false">1.</string>
+    <string name="Mo2" translatable="false">2.</string>
+    <string name="Tue1" translatable="false">1.</string>
+    <string name="Tue2" translatable="false">2.</string>
+    <string name="Wed1" translatable="false">1.</string>
+    <string name="Wed2" translatable="false">2.</string>
+    <string name="Thur1" translatable="false">1.</string>
+    <string name="Thur2" translatable="false">2.</string>
+    <string name="Fri1" translatable="false">1.</string>
+    <string name="Fri2" translatable="false">2.</string>
+    <string name="A1" translatable="false">1.</string>
+    <string name="A2" translatable="false">2.</string>
+    <string name="A3" translatable="false">3.</string>
+    <string name="A4" translatable="false">4.</string>
+    <string name="A5" translatable="false">5.</string>
+    <string name="B1" translatable="false">1.</string>
+    <string name="B2" translatable="false">2.</string>
+    <string name="B3" translatable="false">3.</string>
+    <string name="B4" translatable="false">4.</string>
+    <string name="B5" translatable="false">5.</string>
+    <string name="C1" translatable="false">1.</string>
+    <string name="C2" translatable="false">2.</string>
+    <string name="C3" translatable="false">3.</string>
+    <string name="C44" translatable="false">4.</string>
+    <string name="C5" translatable="false">5.</string>
+    <string name="saturday">Saturday</string>
+    <string name="Sat1" translatable="false">1.</string>
+    <string name="Sat1Done">Done</string>
+    <string name="Sat2" translatable="false">2.</string>
+    <string name="Sat2Done">Done</string>
+    <string name="sunday">Sunday</string>
+    <string name="Sun1" translatable="false">1.</string>
+    <string name="SunDone1">Done</string>
+    <string name="Sun2" translatable="false">2.</string>
+    <string name="SunDone2">Done</string>
+    <string name="TdoM">To-Dos of the month</string>
+    <string name="W1">Week 1</string>
+    <string name="W1_1" translatable="false">1.</string>
+    <string name="W1_1Done">Done</string>
+    <string name="W1_2" translatable="false">2.</string>
+    <string name="W1_2Done">Done</string>
+    <string name="W2">Week 2</string>
+    <string name="W2_1" translatable="false">1.</string>
+    <string name="W2_1Done">Done</string>
+    <string name="W2_2" translatable="false">2.</string>
+    <string name="W2_2Done">Done</string>
+    <string name="W3">Week 3</string>
+    <string name="W3_1" translatable="false">1.</string>
+    <string name="W3_1Done">Done</string>
+    <string name="W3_2" translatable="false">2.</string>
+    <string name="W3_2Done">Done</string>
+    <string name="W4_1" translatable="false">1.</string>
+    <string name="W4">Week 4</string>
+    <string name="W4_1Done">Done</string>
+    <string name="W4_2" translatable="false">2.</string>
+    <string name="W4_2Done">Done</string>
+    <string name="urgentSite">Urgent!</string>
+    <string name="eat_the_frog" translatable="false">Eat the Frog!</string>
+    <string name="do_these_things_first">Do these things first!</string>
+    <string name="Urg1" translatable="false">1.</string>
+    <string name="doneUrg1">Done</string>
+    <string name="Urg2" translatable="false">2.</string>
+    <string name="DoneUrg2">Done</string>
+    <string name="doneUrg3">Done</string>
+    <string name="urgent_to_dos">Urgent To-Dos</string>
+    <string name="Urg5" translatable="false">5.</string>
+    <string name="doneUrg4">Done</string>
+    <string name="doneUrg5">Done</string>
+    <string name="Urg4" translatable="false">4.</string>
+    <string name="you_can_do_it">YOU CAN DO IT!</string>
+    <string name="Urg3" translatable="false">3.</string>
+    <string name="splash" translatable="false">Splash</string>
+    <string name="startscreen" translatable="false">Startscreen</string>
+    <string name="sucessfull_with">SUCESSFULL WITH</string>
+    <string name="SplashscLYL" translatable="false">LIST YOUR LIFE</string>
+    <string name="logo" translatable="false">Logo</string>
+    <string name="successfull_with">Successfull with</string>
+    <string name="logo2" translatable="false">Logo2</string>
+    <string name="save_all">Save All</string>
+    <string name="save_allWo">Save all</string>
+    <string name="fourth">Fourth</string>
+    <string name="save_allUrg">Save All</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fifth">Fifth</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_allMo">Delete All</string>
+    <string name="logoMo" translatable="false">logo</string>
+    <string name="logowo" translatable="false">logoWo</string>
+    <string name="logoheut" translatable="false">logoHeut</string>
+</resources>
